@@ -1,6 +1,6 @@
-import {defaultOptions, transformImportsInline} from "babel-plugin-transform-assets-import-to-string";
+const {defaultOptions, transformImportsInline} = require("babel-plugin-transform-assets-import-to-string");
 
-export default function quintypeAssets(x) {
+module.exports = function quintypeAssets(x) {
   defaultOptions.extensions = defaultOptions.extensions.concat([".css", ".scss"]);
   return transformImportsInline(x);
 }
