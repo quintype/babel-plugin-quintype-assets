@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-quintype-assets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Server Side Compile Plugin for Quintype Assets",
   "main": "index.js",
   "scripts": {
