@@ -17,6 +17,6 @@
   "author": "Quintype Developers <dev-core@quintype.com>",
   "license": "ISC",
   "dependencies": {
-    "babel-plugin-transform-assets-import-to-string": "^1.0.1"
+    "babel-plugin-transform-assets-import-to-string": "~1.0.1"
   }
 }
